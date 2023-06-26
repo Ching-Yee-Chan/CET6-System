@@ -45,7 +45,7 @@ public class $!{tableName} extends SuperController{
      * @return 查询结果
      */
     @PostMapping("/{pageNum}/{pageSize}")
-    public Result queryByPage($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}, 
+    public Result queryByPage(@RequestBody $!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}, 
                               @PathVariable("pageNum") Integer pageNum,
                               @PathVariable("pageSize") Integer pageSize) {
         return success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.queryByPage($!{tool.firstLowerCase($tableInfo.name)}, PageRequest.of(pageNum-1, pageSize)));
@@ -80,7 +80,7 @@ public class $!{tableName} extends SuperController{
      * @return 编辑结果
      */
     @PutMapping
-    public Request edit($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}) {
+    public Result edit($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}) {
         return success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.update($!{tool.firstLowerCase($tableInfo.name)}));
     }
 
@@ -91,7 +91,7 @@ public class $!{tableName} extends SuperController{
      * @return 删除是否成功
      */
     @DeleteMapping("{id}")
-    public Request deleteById(@PathVariable("id") $!pk.shortType id) {
+    public Result deleteById(@PathVariable("id") $!pk.shortType id) {
         return success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.deleteById(id));
     }
 

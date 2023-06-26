@@ -14,7 +14,7 @@ $!callback.setSavePath($tool.append($tableInfo.savePath, "/service"))
 import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.github.pagehelper.PageInfo;
+import com.github.pagehelper.PageInfo;
 
 /**
  * $!{tableInfo.comment}($!{tableInfo.name})表服务接口
