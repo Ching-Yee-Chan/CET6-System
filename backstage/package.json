@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "js-cookie": "^3.0.1",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.2.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -33,7 +38,10 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off",
+      "vue/multi-word-component-names": "off"
+    }
   },
   "browserslist": [
     "> 1%",

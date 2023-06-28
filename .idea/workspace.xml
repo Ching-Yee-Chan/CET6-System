@@ -5,78 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="104a2106-b106-4586-ba7e-92ad3a03aa6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CET6-System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage/src/api/question.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage/src/store/question.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage/src/views/question/index.vue" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/components/Pagination/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/utils/scroll-to.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/utils/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/exam.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/Cet6Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,12 +91,27 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/git/CET6-System",
+    "last_opened_file_path": "D:/git/CET6-System/backstage/src/views",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "ts.external.directory.path": "D:\\Program Files\\idea\\IntelliJ IDEA 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\CET6-System\backstage\src\views" />
+      <recent name="D:\git\CET6-System\backstage\src\store" />
+      <recent name="D:\git\CET6-System\backstage\src\utils" />
+      <recent name="D:\git\CET6-System\backstage\styles" />
+      <recent name="D:\git\CET6-System\backstage\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\CET6-System\backstage\src" />
+      <recent name="D:\git\CET6-System\backstage\styles" />
+      <recent name="D:\git\CET6-System\backstage\src\views" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -137,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687941376592</updated>
-      <workItem from="1687941378087" duration="1186000" />
+      <workItem from="1687941378087" duration="8426000" />
     </task>
     <servers />
   </component>
