@@ -23,21 +23,21 @@ import Layout from '../views/layout/Layout'
   }
 **/
 export const constantRouterMap = [
-  { path: '/', component: () => import('@/views/404'), hidden: true },
-  // { path: '/login', component: () => import('@/views/login/index'), hidden: true },
+  { path: '/404', component: () => import('@/views/404'), hidden: true },
+  { path: '/login', component: () => import('@/views/login/index'), hidden: true },
   // {
   //   path: '/',
   //   component: Layout,
   //   redirect: '/main',
-  //   name: 'Page404',
-  //   // hidden: true,
+  //   name: 'Main',
+  //   hidden: true,
   //   children: [{
   //     path: 'main',
-  //     component: () => import('@/views/404.vue'),
+  //     component: () => import('@/views/dashboard/index'),
   //     meta: { title: '首页', icon: 'form' }
   //   }]
   // },
-
+  //
   // {
   //   path: '/user',
   //   component: Layout,
@@ -48,16 +48,17 @@ export const constantRouterMap = [
   //     meta: { title: '用户管理', icon: 'form' }
   //   }]
   // },
-  // {
-  //   path: '/',
-  //   component: Layout,
-  //   children: [{
-  //     path: 'index',
-  //     name: 'Exam',
-  //     component: () => import('@/views/exam'),
-  //     meta: { title: '考试管理', icon: 'form' }
-  //   }]
-  // },
+  {
+    path: '/',
+    component: Layout,
+    redirect: '/index',
+    children: [{
+      path: 'index',
+      name: 'Exam',
+      component: () => import('@/views/exam/index'),
+      meta: { title: '考试管理', icon: 'form' }
+    }]
+  },
   // {
   //   path: '/examIntroduction',
   //   component: Layout,
@@ -108,8 +109,8 @@ export const constantRouterMap = [
   //     // meta: { title: '试题录入', icon: 'form' }
   //   }]
   // },
-  //
-  // { path: '*', redirect: '/404', hidden: true }
+
+  { path: '*', redirect: '/404', hidden: true }
 ]
 
 export default new Router({

@@ -5,45 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="104a2106-b106-4586-ba7e-92ad3a03aa6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backstage/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/components/Hamburger/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/components/Pagination/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/styles/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/utils/scroll-to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/utils/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/exam.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/Layout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Sidebar/Item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Sidebar/Link.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/views/layout/mixin/ResizeHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/Cet6Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/public/images/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/api/enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/api/exam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/store/enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/store/exam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/store/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/utils/result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/user/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/jsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/components/HelloWorld.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/views/404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/views/404.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/views/exam.vue" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/views/exam/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +78,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -101,15 +96,16 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git\CET6-System\backstage\src\views" />
-      <recent name="D:\git\CET6-System\backstage\src\store" />
-      <recent name="D:\git\CET6-System\backstage\src\utils" />
-      <recent name="D:\git\CET6-System\backstage\styles" />
       <recent name="D:\git\CET6-System\backstage\src\components" />
+      <recent name="D:\git\CET6-System\backstage\src" />
+      <recent name="D:\git\CET6-System\backstage" />
+      <recent name="D:\git\CET6-System\backstage\src\api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\CET6-System\backstage\src\views" />
+      <recent name="D:\git\CET6-System\backstage\src\views\layout\exam" />
       <recent name="D:\git\CET6-System\backstage\src" />
       <recent name="D:\git\CET6-System\backstage\styles" />
-      <recent name="D:\git\CET6-System\backstage\src\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -120,7 +116,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687941376592</updated>
-      <workItem from="1687941378087" duration="8426000" />
+      <workItem from="1687941378087" duration="14189000" />
+      <workItem from="1687959051664" duration="3550000" />
     </task>
     <servers />
   </component>
