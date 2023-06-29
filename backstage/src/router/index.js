@@ -25,29 +25,6 @@ import Layout from '../views/layout/Layout'
 export const constantRouterMap = [
   { path: '/404', component: () => import('@/views/404'), hidden: true },
   { path: '/login', component: () => import('@/views/login/index'), hidden: true },
-  // {
-  //   path: '/',
-  //   component: Layout,
-  //   redirect: '/main',
-  //   name: 'Main',
-  //   hidden: true,
-  //   children: [{
-  //     path: 'main',
-  //     component: () => import('@/views/dashboard/index'),
-  //     meta: { title: '首页', icon: 'form' }
-  //   }]
-  // },
-  //
-  // {
-  //   path: '/user',
-  //   component: Layout,
-  //   children: [{
-  //     path: 'index',
-  //     name: 'User',
-  //     component: () => import('@/views/user/index'),
-  //     meta: { title: '用户管理', icon: 'form' }
-  //   }]
-  // },
   {
     path: '/',
     component: Layout,
@@ -59,57 +36,16 @@ export const constantRouterMap = [
       meta: { title: '考试管理', icon: 'form' }
     }]
   },
-  // {
-  //   path: '/examIntroduction',
-  //   component: Layout,
-  //   children: [{
-  //     path: 'index',
-  //     name: 'ExamIntroduction',
-  //     component: () => import('@/views/examIntroduction/index'),
-  //     meta: { title: '考试介绍管理', icon: 'form' }
-  //   }]
-  // },
-  // {
-  //   path: '/feedback',
-  //   component: Layout,
-  //   children: [{
-  //     path: 'index',
-  //     name: 'Feedback',
-  //     component: () => import('@/views/feedback/index'),
-  //     meta: { title: '反馈管理', icon: 'form' }
-  //   }]
-  // },
-  // {
-  //   path: '/info',
-  //   component: Layout,
-  //   children: [{
-  //     path: 'index',
-  //     name: 'Info',
-  //     component: () => import('@/views/info/index'),
-  //     meta: { title: '考试资讯管理', icon: 'form' }
-  //   }]
-  // },
-  // {
-  //   path: '/examUser',
-  //   component: Layout,
-  //   children: [{
-  //     path: 'index',
-  //     name: 'ExamUser',
-  //     component: () => import('@/views/examUser/index'),
-  //     meta: { title: '考试报名管理', icon: 'form' }
-  //   }]
-  // },
-  // {
-  //   path: '/question',
-  //   component: Layout,
-  //   children: [{
-  //     path: 'index',
-  //     name: 'Question',
-  //     component: () => import('@/views/question/index')
-  //     // meta: { title: '试题录入', icon: 'form' }
-  //   }]
-  // },
-
+  {
+    path: '/examIntroduction',
+    component: Layout,
+    children: [{
+      path: 'index',
+      name: 'ExamIntroduction',
+      component: () => import('@/views/examIntroduction/index'),
+      meta: { title: '考试信息管理', icon: 'form' }
+    }]
+  },
   { path: '*', redirect: '/404', hidden: true }
 ]
 

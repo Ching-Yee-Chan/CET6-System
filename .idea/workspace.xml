@@ -5,171 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="104a2106-b106-4586-ba7e-92ad3a03aa6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_76.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_66_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_66_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_66_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_66_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_66_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_66_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/src/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/cet6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/SuperController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/Utils/ClassUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/Utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/Utils/EnumUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/Utils/IDGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/Utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/EnumCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/EnumEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/ApiEnumCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/AuthenticationEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/ExamStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/ExamTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/ExamUserStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/FeedBackStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/FeedBackTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/InfoTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/common/enums/impl/UserRoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/config/EnumValueTypeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/controller/exam/EnumController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/controller/exam/ExamController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/controller/exam/ExamUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/controller/exam/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/dao/ExamDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/dao/ExamUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/entity/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/entity/ExamUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/model/ExamModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/model/ExamUserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/param/ExamParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/param/ExamUserParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/param/UserParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/entity/AuthenticationBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/entity/JwtUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/filter/CustomAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/filter/WebSecurityCorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/handler/EntryPointUnauthorizedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/handler/MyAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/handler/MyAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/handler/RestAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/service/JwtUserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/util/BCryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/util/GetTokenInfoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/security/util/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/service/ExamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/service/ExamUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/service/impl/ExamServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/service/impl/ExamUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/resources/mapper/ExamDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/resources/mapper/ExamUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cet6/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/images/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/images/man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/images/weixiao-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/images/weixiao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/images/woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/static/images/beianIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/static/images/jingying.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/static/images/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/public/static/images/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/api/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/initialization.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/layout/components/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/layout/components/Bottom.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/layout/components/MainMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/layout/components/MainMenuNoLogin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/layout/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/layout/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/login/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/login/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/login/store/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/login/views/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/main/api/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/main/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/main/store/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/modules/main/views/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/styles/element-ui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/styles/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/styles/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/styles/transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/utils/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/utils/result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/utils/scroll-to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/utils/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontstage/src/utils/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/api/examIntroduction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/store/examIntroduction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage/src/views/examIntroduction/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/controller/exam/ExamIntroductionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/dao/ExamIntroductionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/entity/ExamIntroduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/model/ExamIntroductionModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/pojo/param/ExamIntroductionParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/service/ExamIntroductionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/java/org/example/service/impl/ExamIntroductionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cet6/src/main/resources/mapper/ExamIntroductionDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cet6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cet6/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontstage/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontstage/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontstage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontstage/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontstage/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontstage/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontstage/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontstage/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontstage/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontstage/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontstage/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontstage/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontstage/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontstage/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontstage/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontstage/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/git/CET6-System/frontstage/src",
+    "last_opened_file_path": "D:/git/CET6-System/cet6/src/main/resources/mapper",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -235,11 +85,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\CET6-System\frontstage\src" />
-      <recent name="D:\git\CET6-System\backstage\src" />
-      <recent name="D:\git\CET6-System\frontstage" />
       <recent name="D:\git\CET6-System\cet6\src\main\resources\mapper" />
-      <recent name="D:\git\CET6-System\cet6\src\main\resources" />
+      <recent name="D:\git\CET6-System\backstage\src\api" />
+      <recent name="D:\git\CET6-System\backstage\src\store" />
+      <recent name="D:\git\CET6-System\backstage\src\views" />
+      <recent name="D:\git\CET6-System\frontstage\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\CET6-System\backstage\src\views" />
@@ -248,7 +98,7 @@
       <recent name="D:\git\CET6-System\backstage\styles" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.service" />
+      <recent name="org.example.service.impl" />
       <recent name="org.example.pojo.param" />
       <recent name="org.example.pojo.model" />
       <recent name="org.example.pojo.entity" />
@@ -264,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687941376592</updated>
       <workItem from="1687941378087" duration="14189000" />
-      <workItem from="1687959051664" duration="12958000" />
+      <workItem from="1687959051664" duration="15073000" />
     </task>
     <servers />
   </component>

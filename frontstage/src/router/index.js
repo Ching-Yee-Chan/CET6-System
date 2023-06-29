@@ -27,6 +27,18 @@ const routes = [
         component: () => import('../modules/main/views/main')
       }
     ]
+  },
+  {
+    path: '/examInfo',
+    component: Layout,
+    redirect: '/examInfo/index',
+    name: 'ExamInfo',
+    children: [
+      {
+        path: 'index',
+        component: () => import('../modules/examInfo/views/examInfo')
+      }
+    ]
   }
 ]
 
