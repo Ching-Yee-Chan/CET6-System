@@ -8,6 +8,8 @@ import App from './App'
 import store from './store'
 import router from './router'
 
+import '@/permission'
+
 /**
  * This project originally used easy-mock to simulate data,
  * but its official service is very unstable,
