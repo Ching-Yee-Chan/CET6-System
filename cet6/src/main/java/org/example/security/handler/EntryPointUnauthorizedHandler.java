@@ -17,7 +17,7 @@ import java.io.IOException;
 /**
  * @author Yuxuan
  * @Description 身份校验失败处理器，如 token 错误
- * @Date 2021-08-24
+ * @Date 2023-06-24
  */
 @Component
 public class EntryPointUnauthorizedHandler implements AuthenticationEntryPoint {

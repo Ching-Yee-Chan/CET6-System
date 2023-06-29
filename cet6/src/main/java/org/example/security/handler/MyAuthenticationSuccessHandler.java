@@ -21,7 +21,7 @@ import java.io.IOException;
 /**
  * @author Yuxuan
  * @Description 登录成功操作
- * @Date 2021-08-24
+ * @Date 2023-06-24
  */
 @Component
 public class MyAuthenticationSuccessHandler implements AuthenticationSuccessHandler {

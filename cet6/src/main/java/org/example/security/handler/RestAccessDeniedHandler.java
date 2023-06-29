@@ -17,7 +17,7 @@ import java.io.IOException;
 /**
  * @author Yuxuan
  * @Description 权限校验处理器
- * @Date 2021-08-24
+ * @Date 2023-06-24
  */
 @Component
 public class RestAccessDeniedHandler implements AccessDeniedHandler {

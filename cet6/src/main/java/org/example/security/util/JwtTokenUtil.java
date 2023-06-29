@@ -18,7 +18,7 @@ import java.util.Map;
  * 生成令牌，验证等等一些操作
  *
  * @author Jiankun
- * @since  2021-11-11
+ * @since  2023-06-11
  */
 @Data
 @Component

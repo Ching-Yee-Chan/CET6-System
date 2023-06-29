@@ -23,7 +23,7 @@ import java.io.IOException;
 /**
  * @author Yuxuan
  * @Description 请求拦截器，根据传过来的token，进行认证
- * @Date 2021-08-24
+ * @Date 2023-06-24
  */
 @Component
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {

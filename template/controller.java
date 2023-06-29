@@ -10,8 +10,8 @@ $!callback.setSavePath($tool.append($tableInfo.savePath, "/controller"))
 
 #if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}controller;
 
-import com.exam.common.Result;
-import com.exam.common.SuperController;
+import org.example.common.Result;
+import org.example.common.SuperController;
 import $!{tableInfo.savePackageName}.pojo.entity.$!{tableInfo.name};
 import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;
 import org.springframework.data.domain.Page;

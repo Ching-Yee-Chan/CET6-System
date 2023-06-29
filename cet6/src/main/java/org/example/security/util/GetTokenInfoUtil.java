@@ -8,7 +8,7 @@ public class GetTokenInfoUtil {
      * 获取登陆的用户名
      *
      * @author Jiankun
-     * @since 2021-11-14 12:14:54
+     * @since 2023-06-14 12:14:54
      */
     public static String getUsername() {
         UserDetails principal = (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();

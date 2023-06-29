@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * @author Yuxuan
  * @Description 解决了springSecurity跨域问题
- * @Date 2021-08-24
+ * @Date 2023-06-24
  */
 public class WebSecurityCorsFilter implements Filter {
     @Override

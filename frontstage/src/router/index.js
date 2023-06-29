@@ -39,6 +39,22 @@ const routes = [
         component: () => import('../modules/examInfo/views/examInfo')
       }
     ]
+  },
+  {
+    path: '/register',
+    component: Layout,
+    redirect: '/register/index',
+    name: 'Register',
+    children: [
+      {
+        path: 'index',
+        component: () => import('../modules/register/views/register')
+      },
+      {
+        path: 'examList',
+        component: () => import('../modules/register/views/examList')
+      }
+    ]
   }
 ]
 

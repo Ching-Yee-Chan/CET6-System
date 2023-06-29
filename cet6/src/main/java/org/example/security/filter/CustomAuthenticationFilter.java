@@ -17,7 +17,7 @@ import java.io.InputStream;
 /**
  * @author Yuxuan
  * @Description JSON格式的登录实现
- * @Date 2021-08-24
+ * @Date 2023-06-24
  */
 public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     @Override
