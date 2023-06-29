@@ -6,6 +6,7 @@ import exam from './exam'
 import enumList from './enum'
 import getters from './getters'
 import examIntroduction from './examIntroduction'
+import examUser from './examUser'
 
 Vue.use(Vuex)
 
@@ -15,7 +16,8 @@ const store = new Vuex.Store({
     user,
     enumList,
     exam,
-    examIntroduction
+    examIntroduction,
+    examUser
   },
   getters
 })
