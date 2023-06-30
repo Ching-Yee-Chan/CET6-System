@@ -55,7 +55,19 @@ const routes = [
         component: () => import('../modules/register/views/examList')
       }
     ]
-  }
+  },
+  {
+    path: '/personalCenter',
+    component: Layout,
+    redirect: '/personalCenter/index',
+    name: 'PersonalCenter',
+    children: [
+      {
+        path: 'index',
+        component: () => import('../modules/personalCenter/views/personalCenter')
+      }
+    ]
+  },
 ]
 
 const router = new VueRouter({
