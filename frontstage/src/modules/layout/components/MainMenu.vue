@@ -34,21 +34,6 @@
               {{item.name}}
             </div>
           </div>
-
-          <!-- <div class="tabbar-item" @click="changeTab('register')">
-            在线报名
-          </div>
-          <div class="tabbar-item" @click="changeTab('registrationQuery')">
-            报名查询
-          </div>
-          <div class="tabbar-item" @click="changeTab('resultsInquiry')">
-            成绩查询
-          </div> -->
-        </div>
-        <div class="right">
-          <div class="tabbar-item" @click="toConsult">
-            咨询与备考
-          </div>
         </div>
       </div>
     </div>
@@ -62,7 +47,7 @@ export default {
     return {
       activeTabbar: 'main',
       tabbarList: [{ name: '首页', type: 'main' }, { name: '在线报名', type: 'register' }, { name: '报名查询', type: 'registrationQuery' }, { name: '成绩查询', type: 'resultsInquiry' },
-      { name: '打印准考证', type: 'print' }],
+      { name: '打印准考证', type: 'print' }, {name: '在线考试', type: 'online_exam'}],
       user: null
     }
   },
@@ -88,6 +73,9 @@ export default {
       }
       if (type === 'print') {
         this.$router.push({ path: '/print', query: { type: 'print' } })
+      }
+      if (type === 'online_exam') {
+        this.$router.push({ path: '/online_exam/onlineExam'})
       }
     },
     toConsult () {

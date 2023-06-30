@@ -8,6 +8,8 @@ public enum ExamUserStatusEnum implements EnumCode {
     Apply_NoPay (1,"报名未支付"),
     Apply_Pay (2,"报名已支付"),
     Canal(3,"取消报名"),
+    NoAnswer(4, "考试未完成"),
+    FinishAnswer(5, "考试完成")
     ;
     private final long code;
     private final String msg;
