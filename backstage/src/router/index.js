@@ -56,6 +56,16 @@ export const constantRouterMap = [
       meta: { title: '考试报名管理', icon: 'form' }
     }]
   },
+  {
+    path: '/user',
+    component: Layout,
+    children: [{
+      path: 'index',
+      name: 'User',
+      component: () => import('@/views/user/index'),
+      meta: { title: '用户管理', icon: 'form' }
+    }]
+  },
   { path: '*', redirect: '/404', hidden: true }
 ]
 
