@@ -1,4 +1,4 @@
-import { getExamList, addExam, updateExam, deleteExam, queryExam, exportRegisterInfo } from '@/api/exam'
+import { getExamList, addExam, updateExam, deleteExam, queryExam, exportRegisterInfo, exportAddScore } from '@/api/exam'
 
 const exam = {
   state: {
@@ -37,6 +37,14 @@ const exam = {
       return queryExam(params).then(res => {
         console.log(params)
         commit('SET_EXAMLIST', res.list)
+        return res
+      }
+      )
+    },
+    addScore3({ commit }, params) {
+      console.log('abcdefg')
+      return exportAddScore(params).then(res => {
+        console.log(params)
         return res
       }
       )

@@ -3,18 +3,18 @@
 
     <div class="bottom-t">
       <div class="zi">
-        Author © 2022 Ryan Gao Ge
+        Author © 2023 LYX ZJK NZQ WBF
       </div>
       <div class="jinggon">
-        <span class="zi">©2023 教育部教育考试院 版权所有 (Powered by :471847D)</span>
+        <span class="zi">本项目开源免费，若有侵权信息请联系作者删除！</span>
       </div>
       <div class="jinggon" >
         <img src="" class="img">
-        <span class="zi">建议浏览器：火狐浏览器、谷歌浏览器、IE9+、360浏览器（选择极速模式）</span>
+        <span class="zi">项目地址:https://github.com/Ching-Yee-Chan/CET6-System</span>
       </div>
       <div class="jinggon">
         <img src="/static/images/jingying.png" class="img">
-        <span class="zi">经营资质</span>
+        <span class="zi">软件工程大作业专用</span>
       </div>
     </div>
   </div>

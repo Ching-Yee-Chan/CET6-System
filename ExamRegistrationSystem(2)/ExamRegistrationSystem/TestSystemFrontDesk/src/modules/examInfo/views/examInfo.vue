@@ -91,7 +91,7 @@ export default {
     font-weight: 600;
     font-size: 38px;
     padding-bottom: 6px;
-    border-bottom: 6px solid rgb(255, 51, 255);
+    border-bottom: 6px solid rgb(148,0,211);
   }
   .center {
     text-align: left;

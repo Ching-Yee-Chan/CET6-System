@@ -1,6 +1,5 @@
 <template>
   <div class="section">
-    <!-- 背景颜色 -->
     <div class="color" />
     <div class="color" />
     <div class="color" />

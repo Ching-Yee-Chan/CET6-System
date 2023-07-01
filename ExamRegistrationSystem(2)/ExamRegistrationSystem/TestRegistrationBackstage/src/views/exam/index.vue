@@ -128,7 +128,7 @@
           </span>
         </template>
       </el-table-column> -->
-      <el-table-column align="center" label="操作" width="140">
+      <el-table-column align="center" label="操作" width="250">
         <template slot-scope="row">
           <el-button type="primary" size="mini" @click="handleUpdate(row)">
             修改
@@ -138,6 +138,9 @@
               删除
             </el-button>
           </el-popconfirm>
+          <el-button type="primary" size="mini" @click="handleQuestion(row)">
+            试题管理
+          </el-button>
         </template>
       </el-table-column>
     </el-table>
@@ -391,6 +394,10 @@ export default {
       this.dialogStatus = 'update'
     },
 
+    handleQuestion (row) {
+      this.$router.push({ name: 'Question', params: { examId: row.row.id }})
+    },
+
     // 删除用户
     handleDelete (row) {
       this.$store.dispatch('deleteExam', row.row.id).then(res => {
@@ -501,7 +508,7 @@ export default {
   display: flex;
   margin-bottom: 20px;
   .title {
-    margin-right: 6 px;
+    margin-right: 6px;
     font-weight: 600;
     font-size: 18px;
   }

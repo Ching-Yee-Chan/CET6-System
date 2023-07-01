@@ -4,13 +4,13 @@ import com.exam.common.enums.EnumCode;
 
 public enum ExamTypeEnum implements EnumCode {
 
-    Mandarin(1, "日语六级考试"),
-    Cet_Band_4(2, "英语六级考试"),
-    Cet_Band_6(3, "德语六级考试"),
-    Accounting_Exam(4, "俄语六级考试"),
-    Computer_Rank_Examination(5, "日语六级口语考试"),
-    Teacher_Qualification_Examination(6, "英语六级口语考试"),
-    Test_Of_Spoken_English(7, "德语六级口语考试"),
+    Mandarin(1, "英语六级考试"),
+    Cet_Band_4(2, "英语四级考试"),
+    Cet_Band_6(3, "英语六级口语考试"),
+    Accounting_Exam(4, "英语四级口语考试"),
+    Computer_Rank_Examination(5, "德语六级考试"),
+    Teacher_Qualification_Examination(6, "德语六级口语考试"),
+    Test_Of_Spoken_English(7, "俄语六级考试"),
     Other_Test(8, "俄语六级口语考试"),
 
     ;
@@ -40,6 +40,6 @@ public enum ExamTypeEnum implements EnumCode {
                 return value;
             }
         }
-        return Cet_Band_4;
+        return Mandarin;
     }
 }

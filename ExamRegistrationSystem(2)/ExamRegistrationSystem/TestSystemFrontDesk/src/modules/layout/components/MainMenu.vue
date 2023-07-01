@@ -7,7 +7,7 @@
             <img src="/static/images/logo.png" alt="">
           </div>
           <div class="name">
-            四六级报名系统
+            六级考试报名系统
           </div>
         </div>
         <div class="user">
@@ -34,21 +34,6 @@
               {{item.name}}
             </div>
           </div>
-
-          <!-- <div class="tabbar-item" @click="changeTab('register')">
-            在线报名
-          </div>
-          <div class="tabbar-item" @click="changeTab('registrationQuery')">
-            报名查询
-          </div>
-          <div class="tabbar-item" @click="changeTab('resultsInquiry')">
-            成绩查询
-          </div> -->
-        </div>
-        <div class="right">
-          <div class="tabbar-item" @click="toConsult">
-            咨询与备考
-          </div>
         </div>
       </div>
     </div>
@@ -62,7 +47,7 @@ export default {
     return {
       activeTabbar: 'main',
       tabbarList: [{ name: '首页', type: 'main' }, { name: '在线报名', type: 'register' }, { name: '报名查询', type: 'registrationQuery' }, { name: '成绩查询', type: 'resultsInquiry' },
-      { name: '打印准考证', type: 'print' }],
+      {name: '在线考试', type: 'online_exam'}],
       user: null
     }
   },
@@ -86,8 +71,11 @@ export default {
       if (type === 'resultsInquiry') {
         this.$router.push({ path: '/resultsInquiry', query: { type: 'resultsInquiry' } })
       }
-      if (type === 'print') {
-        this.$router.push({ path: '/print', query: { type: 'print' } })
+      // if (type === 'print') {
+      //   this.$router.push({ path: '/print', query: { type: 'print' } })
+      // }
+      if (type === 'online_exam') {
+        this.$router.push({ path: '/online_exam/onlineExam'})
       }
     },
     toConsult () {
@@ -136,9 +124,11 @@ export default {
 </script>
 <style lang="scss" scoped>
 .main {
-  background: url('/static/images/purple.png') no-repeat;
-  background-size: 100% 100%;
+  //
+  background: #9400D3;
   width: 100%;
+  background-size: 100% 100%;
+  //width: 100%;
   .content {
     position: relative;
     margin: 0 auto;
@@ -151,10 +141,9 @@ export default {
       align-items: center;
       justify-content: space-between;
       .logo {
-        align-items: center;
         display: flex;
         padding-top: 30px;
-        width: 700px;
+        width: 420px;
         height: 100px;
         font-weight: 600;
         font-size: 40px;
@@ -162,8 +151,8 @@ export default {
         .icon {
           margin-top: 6px;
           margin-right: 16px;
-          width: 300px;
-          height: 80px;
+          width: 75px;
+          height: 40px;
           img {
             width: 100%;
             height: 100%;
@@ -203,7 +192,7 @@ export default {
         line-height: 60px;
       }
       .active-tabbar-item {
-        background-color: #FF33FF;
+        background-color: #FF00FF;
         border-radius: 8px 8px 0px 0px;
       }
     }

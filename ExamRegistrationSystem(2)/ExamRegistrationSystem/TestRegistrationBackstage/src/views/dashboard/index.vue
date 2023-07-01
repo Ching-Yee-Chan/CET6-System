@@ -106,7 +106,7 @@ export default {
         },
         xAxis: {
           type: 'category',
-          data: ['普通话', '英语四级', '英语六级', '会计', '计算机等级', '教师资格证', '英语口语']
+          data: ['英语口语四级', '英语四级', '英语六级', '英语口语六级', '德语六级', '俄语六级', '法语六级']
         },
         yAxis: {
           type: 'value'
@@ -174,6 +174,7 @@ export default {
 <style rel="stylesheet/scss" lang="scss" scoped>
 .main {
   padding-bottom: 100px;
+  background: #E6E6FA;
   .top {
     display: flex;
     .no {

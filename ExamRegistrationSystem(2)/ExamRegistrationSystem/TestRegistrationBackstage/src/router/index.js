@@ -34,7 +34,7 @@ export const constantRouterMap = [
     children: [{
       path: 'main',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: '首页', icon: 'form' }
+      meta: { title: '考试信息概览', icon: 'form' }
     }]
   },
 
@@ -45,7 +45,7 @@ export const constantRouterMap = [
       path: 'index',
       name: 'User',
       component: () => import('@/views/user/index'),
-      meta: { title: '用户管理', icon: 'form' }
+      meta: { title: '用户信息管理', icon: 'form' }
     }]
   },
   {
@@ -55,7 +55,7 @@ export const constantRouterMap = [
       path: 'index',
       name: 'Exam',
       component: () => import('@/views/exam/index'),
-      meta: { title: '考试管理', icon: 'form' }
+      meta: { title: '考试信息管理', icon: 'form' }
     }]
   },
   {
@@ -75,7 +75,7 @@ export const constantRouterMap = [
       path: 'index',
       name: 'Feedback',
       component: () => import('@/views/feedback/index'),
-      meta: { title: '反馈管理', icon: 'form' }
+      meta: { title: '反馈意见管理', icon: 'form' }
     }]
   },
   {
@@ -97,6 +97,50 @@ export const constantRouterMap = [
       component: () => import('@/views/examUser/index'),
       meta: { title: '考试报名管理', icon: 'form' }
     }]
+  },
+  {
+    path: '/question',
+    component: Layout,
+    children: [{
+      path: 'index',
+      name: 'Question',
+      component: () => import('@/views/question/index')
+      // meta: { title: '试题录入', icon: 'form' }
+    }]
+  },
+  {
+    path: '/judge',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'JudgeIndex',
+        component: () => import('@/views/judge/index'),
+        meta: { title: '教师在线阅卷', icon: 'form' }
+      }
+    ]
+  },
+  // {
+  //   path: '/judge/judge',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: '/',
+  //       name: 'Judge',
+  //       component: () => import('@/views/judgepage')
+  //     }
+  //   ]
+  // },
+  {
+    path: '/judgepage',
+    component: Layout,
+    children: [
+      {
+        path: '/',
+        name: 'Judge',
+        component: () => import('@/views/judge/judgepage')
+      }
+    ]
   },
 
   { path: '*', redirect: '/404', hidden: true }

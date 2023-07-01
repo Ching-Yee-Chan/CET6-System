@@ -120,6 +120,23 @@ const routes = [
         component: () => import('../modules/personalCenter/views/personalCenter')
       }
     ]
+  },
+  {
+    path: '/online_exam',
+    component: Layout,
+    redirect: '/online_exam/index',
+    name: 'OnlineExam',
+    children: [
+      {
+        path: 'onlineExam',
+        component: () => import('../modules/onlineExam/views/onlineExam')
+      }
+    ]
+  },
+  {
+    path: '/online_exam/examPage',
+    name: 'ExamPage',
+    component: () => import('../modules/onlineExam/views/examPage')
   }
 ]
 

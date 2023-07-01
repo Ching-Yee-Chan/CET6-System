@@ -10,6 +10,8 @@ import feedback from './feedback'
 import enumList from './enum'
 import getters from './getters'
 import dashboard from './dashboard'
+import question from './question'
+import answer from './answer'
 
 Vue.use(Vuex)
 
@@ -23,7 +25,9 @@ const store = new Vuex.Store({
     examUser,
     feedback,
     info,
-    dashboard
+    dashboard,
+    question,
+    answer
   },
   getters
 })

@@ -15,12 +15,12 @@
     </div>
     <el-table v-loading="listLoading" max-height="540" :data="userList" element-loading-text="Loading" border fit highlight-current-row>
       <el-table-column align="center" type="index" />
-      <el-table-column align="center" label="头像" prop="avatar">
-        <!-- <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" /> -->
-        <template slot-scope="{row}">
-          <img style="width:40px;heigth:40px" :src="row.avatar ? row.avatar :'https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png'" alt="">
-        </template>
-      </el-table-column>
+<!--      <el-table-column align="center" label="头像" prop="avatar">-->
+<!--        &lt;!&ndash; <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" /> &ndash;&gt;-->
+<!--        <template slot-scope="{row}">-->
+<!--          <img style="width:40px;heigth:40px" :src="row.avatar ? row.avatar :'https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png'" alt="">-->
+<!--        </template>-->
+<!--      </el-table-column>-->
       <el-table-column align="center" label="用户名" prop="userName" />
       <!-- <el-table-column align="center" label="密码" prop="password" /> -->
       <el-table-column align="center" label="昵称" prop="nickName" />

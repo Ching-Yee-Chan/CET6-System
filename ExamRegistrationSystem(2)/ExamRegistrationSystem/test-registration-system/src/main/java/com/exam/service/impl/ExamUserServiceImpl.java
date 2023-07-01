@@ -63,6 +63,12 @@ public class ExamUserServiceImpl implements ExamUserService {
         return new PageInfo<>(examUsers);
     }
 
+    @Override
+    public PageInfo<ExamUserModel> queryAll(ExamUserParam examUser) {
+        List<ExamUserModel> examUsers = this.examUserDao.queryAllByLimit(examUser);
+        return new PageInfo<>(examUsers);
+    }
+
     /**
      * 新增数据
      *
@@ -138,7 +144,7 @@ public class ExamUserServiceImpl implements ExamUserService {
         for (ExamUserModel examUserModel : examUserModels) {
             examUserModel.setExamModel(examDao.queryById(examUserModel.getExamId()));
         }
-        List<ExamUserModel> collect = examUserModels.stream().filter(n -> n.getExamModel().getStatus().getEnumCode().equals(ExamStatusEnum.Score_Inquiry) && n.getStatus().getEnumCode().equals(ExamUserStatusEnum.Apply_Pay)).collect(Collectors.toList());
+        List<ExamUserModel> collect = examUserModels.stream().filter(n -> n.getExamModel().getStatus().getEnumCode().equals(ExamStatusEnum.Score_Inquiry) && n.getStatus().getEnumCode().equals(ExamUserStatusEnum.FinishAnswer)).collect(Collectors.toList());
 
         return collect;
 

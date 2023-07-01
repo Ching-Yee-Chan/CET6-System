@@ -53,7 +53,7 @@ public class DashboardController {
         statusInfoMap.put("Score_Inquiry",Score_Inquiry.size());
 
 
-//        typeInfoMap.put("Mandarin",Mandarin.size());
+        typeInfoMap.put("Mandarin",Mandarin.size());
         typeInfoMap.put("Cet_Band_4",Cet_Band_4.size());
         typeInfoMap.put("Cet_Band_6",Cet_Band_6.size());
         typeInfoMap.put("Accounting_Exam",Accounting_Exam.size());

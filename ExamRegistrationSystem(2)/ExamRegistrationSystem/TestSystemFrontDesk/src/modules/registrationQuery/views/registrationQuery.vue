@@ -16,6 +16,8 @@
           <template slot-scope="{row}">
             <span v-if="row.status.enumCode == 'Apply_NoPay'">未缴费</span>
             <span v-if="row.status.enumCode == 'Apply_Pay'">已缴费</span>
+            <span v-if="row.status.enumCode == 'NoAnswer'">已缴费</span>
+            <span v-if="row.status.enumCode == 'FinishAnswer'">已缴费</span>
           </template>
         </el-table-column>
         <el-table-column prop="examModel.status.enumCode" label="操作">

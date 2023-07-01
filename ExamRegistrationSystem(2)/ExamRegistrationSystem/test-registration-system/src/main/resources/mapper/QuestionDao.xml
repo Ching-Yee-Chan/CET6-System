@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.exam.dao.QuestionDao">
+
+    <resultMap type="com.exam.pojo.entity.Question" id="QuestionMap">
+        <result property="questionid" column="questionId" jdbcType="INTEGER"/>
+        <result property="material" column="material" jdbcType="VARCHAR"/>
+        <result property="question" column="question" jdbcType="VARCHAR"/>
+        <result property="type" column="type" jdbcType="INTEGER"/>
+        <result property="answer" column="answer" jdbcType="VARCHAR"/>
+        <result property="score" column="score" jdbcType="VARCHAR"/>
+        <result property="itema" column="itemA" jdbcType="VARCHAR"/>
+        <result property="itemb" column="itemB" jdbcType="VARCHAR"/>
+        <result property="itemc" column="itemC" jdbcType="VARCHAR"/>
+        <result property="itemd" column="itemD" jdbcType="VARCHAR"/>
+        <result property="paperid" column="paperId" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="QuestionMap">
+        select questionId,
+               material,
+               question,
+               type,
+               answer,
+               score,
+               itemA,
+               itemB,
+               itemC,
+               itemD,
+               paperId
+        from question
+        where questionId = #{questionid}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="QuestionMap">
+        select
+        questionId, material, question, type, answer, score, itemA, itemB, itemC, itemD, paperId
+        from question
+        <where>
+            <if test="param.questionid != null">
+                and questionId = #{param.questionid}
+            </if>
+            <if test="param.material != null and param.material != ''">
+                and material = #{param.material}
+            </if>
+            <if test="param.question != null and param.question != ''">
+                and question = #{param.question}
+            </if>
+            <if test="param.type != null">
+                and type = #{param.type}
+            </if>
+            <if test="param.answer != null and param.answer != ''">
+                and answer = #{param.answer}
+            </if>
+            <if test="param.score != null and param.score != ''">
+                and score = #{param.score}
+            </if>
+            <if test="param.itema != null and param.itema != ''">
+                and itemA = #{param.itema}
+            </if>
+            <if test="param.itemb != null and param.itemb != ''">
+                and itemB = #{param.itemb}
+            </if>
+            <if test="param.itemc != null and param.itemc != ''">
+                and itemC = #{param.itemc}
+            </if>
+            <if test="param.itemd != null and param.itemd != ''">
+                and itemD = #{param.itemd}
+            </if>
+            <if test="param.paperid != null and param.paperid != ''">
+                and paperId = #{param.paperid}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <select id="queryAll" resultMap="QuestionMap">
+        select
+        questionId, material, question, type, answer, score, itemA, itemB, itemC, itemD, paperId
+        from question
+        <where>
+            <if test="param.questionid != null">
+                and questionId = #{param.questionid}
+            </if>
+            <if test="param.material != null and param.material != ''">
+                and material = #{param.material}
+            </if>
+            <if test="param.question != null and param.question != ''">
+                and question = #{param.question}
+            </if>
+            <if test="param.type != null">
+                and type = #{param.type}
+            </if>
+            <if test="param.answer != null and param.answer != ''">
+                and answer = #{param.answer}
+            </if>
+            <if test="param.score != null and param.score != ''">
+                and score = #{param.score}
+            </if>
+            <if test="param.itema != null and param.itema != ''">
+                and itemA = #{param.itema}
+            </if>
+            <if test="param.itemb != null and param.itemb != ''">
+                and itemB = #{param.itemb}
+            </if>
+            <if test="param.itemc != null and param.itemc != ''">
+                and itemC = #{param.itemc}
+            </if>
+            <if test="param.itemd != null and param.itemd != ''">
+                and itemD = #{param.itemd}
+            </if>
+            <if test="param.paperid != null and param.paperid != ''">
+                and paperId = #{param.paperid}
+            </if>
+        </where>
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from question
+        <where>
+            <if test="questionid != null">
+                and questionId = #{questionid}
+            </if>
+            <if test="material != null and material != ''">
+                and material = #{material}
+            </if>
+            <if test="question != null and question != ''">
+                and question = #{question}
+            </if>
+            <if test="type != null">
+                and type = #{type}
+            </if>
+            <if test="answer != null and answer != ''">
+                and answer = #{answer}
+            </if>
+            <if test="score != null and score != ''">
+                and score = #{score}
+            </if>
+            <if test="itema != null and itema != ''">
+                and itemA = #{itema}
+            </if>
+            <if test="itemb != null and itemb != ''">
+                and itemB = #{itemb}
+            </if>
+            <if test="itemc != null and itemc != ''">
+                and itemC = #{itemc}
+            </if>
+            <if test="itemd != null and itemd != ''">
+                and itemD = #{itemd}
+            </if>
+            <if test="paperid != null and paperid != ''">
+                and paperId = #{paperid}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="questionid" useGeneratedKeys="true">
+        insert into question(material, question, type, answer, score, itemA, itemB, itemC, itemD, paperId)
+        values (#{param.material}, #{param.question}, #{param.type}, #{param.answer}, #{param.score}, #{param.itema},
+                #{param.itemb}, #{param.itemc}, #{param.itemd}, #{param.paperid})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="questionid" useGeneratedKeys="true">
+        insert into question(material, question, type, answer, score, itemA, itemB, itemC, itemD, paperId)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.material}, #{entity.question}, #{entity.type}, #{entity.answer}, #{entity.score}, #{entity.itema},
+            #{entity.itemb}, #{entity.itemc}, #{entity.itemd}, #{entity.paperid})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="questionid" useGeneratedKeys="true">
+        insert into question(material, question, type, answer, score, itemA, itemB, itemC, itemD, paperId)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.material}, #{entity.question}, #{entity.type}, #{entity.answer}, #{entity.score}, #{entity.itema},
+            #{entity.itemb}, #{entity.itemc}, #{entity.itemd}, #{entity.paperid})
+        </foreach>
+        on duplicate key update
+        material = values(material),
+        question = values(question),
+        type = values(type),
+        answer = values(answer),
+        score = values(score),
+        itemA = values(itemA),
+        itemB = values(itemB),
+        itemC = values(itemC),
+        itemD = values(itemD),
+        paperId = values(paperId)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update question
+        <set>
+            <if test="param.material != null and param.material != ''">
+                material = #{param.material},
+            </if>
+            <if test="param.question != null and param.question != ''">
+                question = #{param.question},
+            </if>
+            <if test="param.type != null">
+                type = #{param.type},
+            </if>
+            <if test="param.answer != null and param.answer != ''">
+                answer = #{param.answer},
+            </if>
+            <if test="param.score != null and param.score != ''">
+                score = #{param.score},
+            </if>
+            <if test="param.itema != null and param.itema != ''">
+                itemA = #{param.itema},
+            </if>
+            <if test="param.itemb != null and param.itemb != ''">
+                itemB = #{param.itemb},
+            </if>
+            <if test="param.itemc != null and param.itemc != ''">
+                itemC = #{param.itemc},
+            </if>
+            <if test="param.itemd != null and param.itemd != ''">
+                itemD = #{param.itemd},
+            </if>
+            <if test="param.paperid != null and param.paperid != ''">
+                paperId = #{param.paperid},
+            </if>
+        </set>
+        where questionId = #{param.questionid}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete
+        from question
+        where questionId = #{questionid}
+    </delete>
+
+</mapper>
+

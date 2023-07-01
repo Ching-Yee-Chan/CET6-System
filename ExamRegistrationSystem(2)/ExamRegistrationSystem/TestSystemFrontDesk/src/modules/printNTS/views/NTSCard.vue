@@ -13,9 +13,7 @@
     <div class="block" @click="printNTS">打印准考证</div> -->
 
     <div class="title">{{details.examModel.title}}准考证</div>
-    <div>
-      <img class="avatar" src="../pic/img.png" />
-    </div>
+    <img :src="details.identificationPhoto" class="avatar" />
     <div class="table">
       <table>
         <tr>

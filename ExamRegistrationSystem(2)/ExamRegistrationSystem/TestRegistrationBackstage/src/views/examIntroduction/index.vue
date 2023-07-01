@@ -206,13 +206,14 @@ export default {
       this.$store.dispatch('getExamIntroductionList', params).then(res => {
         this.listLoading = false
         this.total = res.total
+        console.log(res)
       }).catch(err => {
         console.log(err)
       })
     },
 
     // 清空form表单
-    resetrForm () {
+    resetForm () {
       this.temp = {
         title: '',
         description: '',
@@ -227,7 +228,7 @@ export default {
     // 添加用户弹窗
     addExam () {
       this.type = 'add'
-      this.resetrForm()
+      this.resetForm()
       this.dialogFormVisible = true
       this.dialogStatus = 'create'
       this.$nextTick(() => {

@@ -5,7 +5,7 @@
         <div class="label word">头像：</div>
         <!--TODO 文件上传地址 -->
         <el-upload class="avatar-uploader" action="http://82.157.42.25:5050/file/upload" :show-file-list="false" :on-success="handleAvatarSuccess">
-          <img v-if="imageUrl" :src="imageUrl" class="avatar">
+          <img v-if="imageUrl" src="/static/images/img.png" class="avatar">
           <i v-else class="el-icon-plus avatar-uploader-icon"></i>
         </el-upload>
       </div>

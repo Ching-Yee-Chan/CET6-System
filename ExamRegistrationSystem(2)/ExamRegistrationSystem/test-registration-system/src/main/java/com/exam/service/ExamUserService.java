@@ -34,6 +34,13 @@ public interface ExamUserService {
     PageInfo<ExamUserModel> queryByPage(ExamUserParam examUser, Integer pageNum, Integer pageSize);
 
     /**
+     *
+     * @param examUser
+     * @return
+     */
+    PageInfo<ExamUserModel> queryAll(ExamUserParam examUser);
+
+    /**
      * 新增数据
      *
      * @param examUser 实例对象

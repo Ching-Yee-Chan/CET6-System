@@ -70,3 +70,16 @@ export function exportRegisterInfo(examId) {
   }).then(res => res)
 }
 
+/**
+ * 导出报名信息
+ */
+export function exportAddScore(params) {
+  console.log('12345')
+  return request({
+    url: `/examUser/addScore`,
+    method: 'put',
+    responseType: 'blob',
+    data: { examId: params.examid, score: params.score }
+  }).then(res => res)
+}
+

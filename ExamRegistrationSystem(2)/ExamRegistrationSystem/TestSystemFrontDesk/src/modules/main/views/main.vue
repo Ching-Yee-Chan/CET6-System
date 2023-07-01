@@ -4,8 +4,9 @@
       <!-- <img src="/static/images/main.png" alt=""> -->
       <div class="introduction">
         <div class="in">
-          <div class="title">考试报名系统介绍</div>
-          <div class="content">本系统用于大学英语四六级考试报名,考生可以在网站进行考试信息的查询、准考证的打印、考试公告的查看、模拟考试</div>
+          <div class="title">英语六级考试报名系统介绍</div>
+          <div class="content">本系统用于大学英语四六级考试报名，考生应确认个人信息无误后根据大学所在城市选择考点进行报名。学生应在考试时间内登录系统进行作答。
+            考试结束后学生可以在系统中查询成绩</div>
         </div>
       </div>
     </div>
@@ -36,17 +37,17 @@ export default {
       bulletin: [
         {
           title: '报名时间公告',
-          content: '全国大学英语四、六级考试(CET)的报名时间公告',
+          content: '全国大学英语四、六级考试(CET)报名时间公告',
           value: 'register'
         },
         {
-          title: '打印准考证公告',
-          content: '全国大学英语四、六级考试(CET)的打印准考证公告',
+          title: '考试信息说明公告',
+          content: '全国大学英语四、六级考试(CET)考试信息说明公告',
           value: 'admissionTicket'
         },
         {
           title: '成绩查询公告',
-          content: '全国大学英语四、六级考试(CET)的考试等成绩查询公告',
+          content: '全国大学英语四、六级考试(CET)成绩查询公告',
           value: 'grade'
         }
       ]
@@ -100,6 +101,7 @@ export default {
   justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
+  //background: #800080;
   // background-color: #fff;
   .bulletin-board {
     display: flex;
@@ -107,7 +109,9 @@ export default {
     margin-top: 70px;
     padding-bottom: 70px;
     cursor: pointer;
+    //background: #800080;
     .board-item {
+      background: #D8BFD8;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -115,7 +119,7 @@ export default {
       width: 300px;
       height: 200px;
       border: 1px solid #ddd;
-      background-color: #fff;
+      //background-color: #fff;
       border-radius: 4px;
       .title {
         height: 80px;
@@ -130,6 +134,7 @@ export default {
         padding: 16px;
         color: #777;
         line-height: 2rem;
+        font-weight: bold;
       }
     }
   }

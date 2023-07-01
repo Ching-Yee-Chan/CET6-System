@@ -1,11 +1,9 @@
 <template>
   <div class="card">
-    <div class="title">成绩查询</div>
+    <div class="title">考试结果</div>
     <div class="content">
       <div class="left">
-        <div>
-          <img class="avatar" src="../pic/img.png" />
-        </div>
+        <img src="/static/images/img.png" />
         <div class="left-info">
           <div class="item">
             <div class="label">姓名：</div>
@@ -50,7 +48,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   width: 900px;
   height: 255px;
   background-color: #fff;

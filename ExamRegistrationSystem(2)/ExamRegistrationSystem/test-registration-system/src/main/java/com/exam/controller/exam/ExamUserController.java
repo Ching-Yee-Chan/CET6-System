@@ -2,6 +2,7 @@ package com.exam.controller.exam;
 
 import com.exam.common.Result;
 import com.exam.common.SuperController;
+import com.exam.pojo.model.ExamUserModel;
 import com.exam.pojo.param.ExamUserParam;
 import com.exam.security.util.GetTokenInfoUtil;
 import com.exam.service.ExamUserService;
@@ -10,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+
+import java.util.List;
 
 /**
  * (ExamUser)表控制层
@@ -121,6 +124,27 @@ public class ExamUserController extends SuperController {
     public Result edit(@RequestBody ExamUserParam examUser) {
         return success(this.examUserService.update(examUser));
     }
+
+    /**
+     * 更新分数
+     * @param examUser 包含 examId score
+     * @return
+     */
+    @ApiOperation("更新分数")
+    @PutMapping("/addScore")
+    public Result addScore(@RequestBody ExamUserParam examUser) {
+        System.out.println("123456");
+        ExamUserParam param = new ExamUserParam();
+        param.setExamId(examUser.getExamId());
+        ExamUserModel updateParam = this.examUserService.queryAll(param).getList().get(0);
+        System.out.println(Integer.parseInt(updateParam.getScore()) + Integer.parseInt(examUser.getScore()));
+        ExamUserParam param2 = new ExamUserParam();
+        param2.setId(updateParam.getId());
+        param2.setScore(String.valueOf(Integer.parseInt(updateParam.getScore()) + Integer.parseInt(examUser.getScore())));
+        System.out.println(param2.getScore());
+        return success(this.examUserService.update(param2));
+    }
+
 
     /**
      * 编辑数据
