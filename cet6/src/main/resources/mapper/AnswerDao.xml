@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.dao.AnswerDao">
+
+    <resultMap type="org.example.pojo.entity.Answer" id="AnswerMap">
+        <result property="answerexam" column="answerExam" jdbcType="VARCHAR"/>
+        <result property="answerquestion" column="answerQuestion" jdbcType="INTEGER"/>
+        <result property="answeruser" column="answerUser" jdbcType="VARCHAR"/>
+        <result property="answertype" column="answerType" jdbcType="INTEGER"/>
+        <result property="answeroption" column="answerOption" jdbcType="INTEGER"/>
+        <result property="answercontent" column="answerContent" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="AnswerMap">
+        select answerExam,
+               answerQuestion,
+               answerUser,
+               answerType,
+               answerOption,
+               answerContent
+        from answer
+        where answerExam = #{answerexam}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="AnswerMap">
+        select
+        answerExam, answerQuestion, answerUser, answerType, answerOption, answerContent
+        from answer
+        <where>
+            <if test="param.answerexam != null and param.answerexam != ''">
+                and answerExam = #{param.answerexam}
+            </if>
+            <if test="param.answerquestion != null">
+                and answerQuestion = #{param.answerquestion}
+            </if>
+            <if test="param.answeruser != null and param.answeruser != ''">
+                and answerUser = #{param.answeruser}
+            </if>
+            <if test="param.answertype != null">
+                and answerType = #{param.answertype}
+            </if>
+            <if test="param.answeroption != null">
+                and answerOption = #{param.answeroption}
+            </if>
+            <if test="param.answercontent != null and param.answercontent != ''">
+                and answerContent = #{param.answercontent}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from answer
+        <where>
+            <if test="answerexam != null and answerexam != ''">
+                and answerExam = #{answerexam}
+            </if>
+            <if test="answerquestion != null">
+                and answerQuestion = #{answerquestion}
+            </if>
+            <if test="answeruser != null and answeruser != ''">
+                and answerUser = #{answeruser}
+            </if>
+            <if test="answertype != null">
+                and answerType = #{answertype}
+            </if>
+            <if test="answeroption != null">
+                and answerOption = #{answeroption}
+            </if>
+            <if test="answercontent != null and answercontent != ''">
+                and answerContent = #{answercontent}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="answerexam" useGeneratedKeys="true">
+        insert into answer(answerType, answerOption, answerContent, answerExam, answerUser, answerQuestion)
+        values (#{param.answertype}, #{param.answeroption}, #{param.answercontent}, #{param.answerexam}, #{param.answeruser}, #{param.answerquestion})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="answerexam" useGeneratedKeys="true">
+        insert into answer(answerType, answerOption, answerContent)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.answertype}, #{entity.answeroption}, #{entity.answercontent})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="answerexam" useGeneratedKeys="true">
+        insert into answer(answerType, answerOption, answerContent)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.answertype}, #{entity.answeroption}, #{entity.answercontent})
+        </foreach>
+        on duplicate key update
+        answerType = values(answerType),
+        answerOption = values(answerOption),
+        answerContent = values(answerContent)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update answer
+        <set>
+            <if test="param.answertype != null">
+                answerType = #{param.answertype},
+            </if>
+            <if test="param.answeroption != null">
+                answerOption = #{param.answeroption},
+            </if>
+            <if test="param.answercontent != null and param.answercontent != ''">
+                answerContent = #{param.answercontent},
+            </if>
+        </set>
+        where answerExam = #{param.answerexam} and answerQuestion = #{param.answerquestion} and answerUser = #{param.answeruser}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete
+        from answer
+        where answerExam = #{answerexam}
+    </delete>
+
+</mapper>
+
