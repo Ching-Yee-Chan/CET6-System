@@ -65,7 +65,23 @@ const routes = [{
         name: 'ExamPage',
         component: () =>
             import ('../modules/onlineExam/views/examPage')
-    }
+    },
+    {
+        path: '/registrationQuery',
+        component: Layout,
+        redirect: '/registrationQuery/index',
+        name: 'RegistrationQuery',
+        children: [
+            {
+                path: 'index',
+                component: () => import('../modules/registrationQuery/views/registrationQuery')
+            },
+            {
+                path:'payPage',
+                component:()=>import('../modules/registrationQuery/views/payPage')
+            }
+        ]
+    },
 ]
 
 const router = new VueRouter({
