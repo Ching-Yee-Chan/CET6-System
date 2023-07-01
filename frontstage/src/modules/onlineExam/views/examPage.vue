@@ -4,7 +4,7 @@
     <!--顶部信息栏-->
     <div class="top">
       <ul class="item">
-        <li>全国大学英语六级考试（CET-6）在线答题系统</li>
+        <li>全国大学英语六级考试在线答题系统</li>
 <!--        <li><i class="iconfont icon-time"></i>距离考试结束：<b>{{time}}</b>分钟</li>-->
         <li style="list-style-type: none"><i class="iconfont el-icon-menu icon20" ref="toggle" @click="slider_flag = !slider_flag"></i></li>
       </ul>
@@ -95,7 +95,7 @@
                 </li>
               </ul>
             </div>
-            <div class="final" @click="commit()">交卷</div>
+            <div class="final" @click="commit()">提交试卷</div>
           </div>
         </div>
       </transition>
