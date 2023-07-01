@@ -14,22 +14,22 @@
         <div>{{info.userName}}</div>
       </div>
       <div class="area">
-        <div class="label word">昵称：</div>
+        <div class="label word">用户昵称：</div>
         <el-input v-model="info.nickName"></el-input>
       </div>
       <div class="area word">
-        <div class="label word">手机号：</div>
+        <div class="label word">用户手机号：</div>
         <el-input v-model="info.phone"></el-input>
       </div>
       <div class="area word">
-        <div class="label word">身份证号：</div>
+        <div class="label word">用户身份证号：</div>
         <el-input v-model="info.identityNum"></el-input>
       </div>
       <div class="area word">
-        <div class="label word">地址：</div>
+        <div class="label word">用户地址：</div>
         <el-input v-model="info.address"></el-input>
       </div>
-      <el-button type="primary" @click="updateInfo">确认修改</el-button>
+      <el-button type="primary" @click="updateInfo">确认修改?</el-button>
     </div>
     <div class="right">
       <div class="inputBox">
@@ -38,7 +38,7 @@
       </div>
       <div v-if=" isCheck" class="check" @click="getAuthCode">点击获取验证码
       </div>
-      <div v-else class="check-false">重新获取({{time}})</div>
+      <div v-else class="check-false">重新获取验证码({{time}})</div>
       <el-button type="primary" @click="updatePassword">修改密码</el-button>
     </div>
   </div>
@@ -68,7 +68,7 @@ export default {
     handleAvatarSuccess (el) {
       console.log(el)
       this.imageUrl = el.data.accessAddress
-      this.$message.success('头像上传成功，点击修改保存')
+      this.$message.success('头像上传成功，点击修改进行保存')
     },
     getInfo () {
       this.$store.dispatch('getInfo').then(res => {
@@ -112,7 +112,7 @@ export default {
     },
     updatePassword () {
       this.$store.dispatch('updatePassword', { password: this.password, inputCode: this.authCode }).then(res => {
-        this.$message.success('密码修改成功')
+        this.$message.success('原密码修改成功')
       }).catch(err => {
         console.log(err)
         this.$message.error(err)
