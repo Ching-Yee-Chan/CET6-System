@@ -395,7 +395,7 @@ export default {
     },
 
     handleQuestion (row) {
-      this.$router.push('/question/index')
+      this.$router.push({ name: 'Question', params: { examId: row.row.id }})
     },
 
     // 删除用户
