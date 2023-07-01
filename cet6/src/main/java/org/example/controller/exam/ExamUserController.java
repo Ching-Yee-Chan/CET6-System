@@ -119,6 +119,40 @@ public class ExamUserController extends SuperController {
      * @param examUser 实体
      * @return 编辑结果
      */
+    @ApiOperation("编辑数据")
+    @PutMapping
+    public Result edit(@RequestBody ExamUserParam examUser) {
+        return success(this.examUserService.update(examUser));
+    }
+
+    /**
+     * 更新分数
+     * @param examUser 包含 examId score
+     * @return
+     */
+    @ApiOperation("更新分数")
+    @PutMapping("/addScore")
+    public Result addScore(@RequestBody ExamUserParam examUser) {
+        System.out.println("123456");
+        ExamUserParam param = new ExamUserParam();
+        param.setExamId(examUser.getExamId());
+        ExamUserModel updateParam = this.examUserService.queryAll(param).getList().get(0);
+        System.out.println(Integer.parseInt(updateParam.getScore()) + Integer.parseInt(examUser.getScore()));
+        ExamUserParam param2 = new ExamUserParam();
+        param2.setId(updateParam.getId());
+        param2.setScore(String.valueOf(Integer.parseInt(updateParam.getScore()) + Integer.parseInt(examUser.getScore())));
+        System.out.println(param2.getScore());
+        return success(this.examUserService.update(param2));
+    }
+
+
+
+    /**
+     * 编辑数据
+     *
+     * @param examUser 实体
+     * @return 编辑结果
+     */
     @PatchMapping("/patch")
     public Result patchInfo(@RequestBody ExamUserParam examUser) {
         String username = GetTokenInfoUtil.getUsername();
